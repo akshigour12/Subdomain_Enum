@@ -47,18 +47,18 @@ cd Subdomain_Enum
 
 chmod +x main.py
 
-Step 2: Install Required Tools
+### Step 2: Install Required Tools
 
 sudo apt install assetfinder subfinder findomain amass theharvester dnsrecon dnsenum fierce gobuster massdns
 
 
-Step 3 (Optional): Run from anywhere
+### Step 3 (Optional): Run from anywhere
 
 sudo ln -s $(pwd)/main.py /usr/local/bin/subenum
 
 Now you can run the tool globally using: subenum -d example.com -o results/example.txt
 
-**Help Menu**
+### **Help Menu**
 usage: subenum --help
 optional arguments:
   -h, --help            show this help message and exit
