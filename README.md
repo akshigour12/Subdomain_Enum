@@ -59,11 +59,15 @@ sudo ln -s $(pwd)/main.py /usr/local/bin/subenum
 Now you can run the tool globally using: subenum -d example.com -o results/example.txt
 
 ### **Help Menu**
+
 usage: subenum --help
 optional arguments:
+
   -h, --help            show this help message and exit
+  
   -d DOMAIN, --domain DOMAIN
                         Target domain
+                        
   -o OUTPUT, --output OUTPUT
                         Output file to save unique results
 
