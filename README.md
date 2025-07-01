@@ -38,7 +38,7 @@ Whether you're a bug bounty hunter, red teamer, or security researcher, Subenum 
 
 ## 🚀 Installation
 
-### 🔹 Step 1: Clone the Repository
+### Step 1: Clone the Repository
 
 
 git clone https://github.com/akshigour12/Subdomain_Enum
