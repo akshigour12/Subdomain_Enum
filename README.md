@@ -40,14 +40,20 @@ Whether you're a bug bounty hunter, red teamer, or security researcher, Subenum 
 
 ### 🔹 Step 1: Clone the Repository
 
+
 git clone https://github.com/akshigour12/Subdomain_Enum
+
 cd Subdomain_Enum
+
 chmod +x main.py
 
 Step 2: Install Required Tools
+
 sudo apt install assetfinder subfinder findomain amass theharvester dnsrecon dnsenum fierce gobuster massdns
 
+
 Step 3 (Optional): Run from anywhere
+
 sudo ln -s $(pwd)/main.py /usr/local/bin/subenum
 
 Now you can run the tool globally using: subenum -d example.com -o results/example.txt
